@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>Image</key>
+			<string>ic_my_bookmenu@2x</string>
+			<key>textForLabel</key>
+			<string>新闻</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>ic_my_bookno@2x</string>
+			<key>textForLabel</key>
+			<string>游戏</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>Image</key>
+			<string>ic_my_group@2x</string>
+			<key>textForLabel</key>
+			<string>音乐</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>ic_my_movie@2x</string>
+			<key>textForLabel</key>
+			<string>视频</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>Image</key>
+			<string>ic_my_bookseat@2x</string>
+			<key>textForLabel</key>
+			<string>小说</string>
+		</dict>
+		<dict>
+			<key>Image</key>
+			<string>ic_my_product@2x</string>
+			<key>textForLabel</key>
+			<string>美图</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>Image</key>
+			<string>ic_my_promotion@2x</string>
+			<key>textForLabel</key>
+			<string>其它</string>
+		</dict>
+	</array>
+</array>
+</plist>

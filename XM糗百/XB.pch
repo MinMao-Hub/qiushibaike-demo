@@ -1,0 +1,70 @@
+//
+//  XB.pch
+//  XM糗百
+//
+//  Created by GuoYonghong on 14/12/10.
+//  Copyright (c) 2014年 guoyonghong. All rights reserved.
+//
+
+#ifndef XM___XB_pch
+#define XM___XB_pch
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    //最新 --GET
+    #define LastestURLString(count,page) [NSString stringWithFormat:@"http://m2.qiushibaike.com/article/list/latest?count=%d&page=%d",count,page]
+    //纯图  --GET
+    #define ImageURLString(count,page) [NSString stringWithFormat:@"http://m2.qiushibaike.com/article/list/images?count=%d&page=%d",count,page]
+    //纯文  --GET
+    #define TextURLString(count,page) [NSString stringWithFormat:@"http://m2.qiushibaike.com/article/list/text?count=%d&page=%d",count,page]
+    //评论  --GET
+    #define SuggestURLString(count,page) [NSString stringWithFormat:@"http://m2.qiushibaike.com/article/list/suggest?count=%d&page=%d",count,page]
+    //日精华  --GET
+    #define DayURLString(count,page) [NSString stringWithFormat:@"http://m2.qiushibaike.com/article/list/day?count=%d&page=%d",count,page]
+    //周精华  --GET
+    #define WeakURlString(count,page) [NSString stringWithFormat:@"http://m2.qiushibaike.com/article/list/week?count=%d&page=%d",count,page]
+    //月精华  --GET
+    #define MonthURLString(count,page) [NSString stringWithFormat:@"http://m2.qiushibaike.com/article/list/month?count=%d&page=%d",count,page]
+    //登录  --GET
+    #define LoginURLString(userName,passWord) [NSString stringWithFormat:@"m2.qiushibaike.com/user/signin?loginName=%@&password=%@",userName,passWord]
+
+    //图片
+    #define imageBaseURL @"http://pic.qiushibaike.com/system/pictures/"
+    //注册时所需要传过去的通知名
+    #define kRegisterUserName @"kRegisterUserName"
+
+    //判断版本适应屏幕
+    #define kVersion [[[UIDevice currentDevice] systemVersion] floatValue]
+    #define kNavBarHeight 64
+    #define kScreemHeight self.view.bounds.size.height
+    #define kScreemWidth self.view.bounds.size.width
+
+    #define is_iPhone5                  ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO) 
+
+
+
+
+    //发表评论: POST Header:Qbtoken 参数：{"content" : "啊啊啊","anonymous" : false}
+    #define api_create_comment(id)                   [NSString stringWithFormat:@"http://m2.qiushibaike.com/article/%@/comment/create", id]
+    //登录:POST
+    #define api_qiushi_login                         @"http://m2.qiushibaike.com/user/signin"
+    //反馈:POST
+    #define api_qiushi_feedback                      @"http://m2.qiushibaike.com/feedback"
+    //我收藏的: GET Header:Qbtoken
+    #define api_mine_collect(page, count)            [NSString stringWithFormat:@"http://m2.qiushibaike.com/collect/list?page=%d&count=%d", page, count]
+    //我评论的: GET Header:Qbtoken
+    #define api_mine_participate(page, count)        [NSString stringWithFormat:@"http://m2.qiushibaike.com/user/my/participate?page=%d&count=%d", page, count]
+    //我发表的: GET Header:Qbtoken
+    #define api_mine_articles(page, count)           [NSString stringWithFormat:@"http://m2.qiushibaike.com/user/my/articles?page=%d&count=%d", page, count]
+    //收藏功能 POST Header:Qbtoken
+    #define api_qiushi_collect(id)                   [NSString stringWithFormat:@"http://m2.qiushibaike.com/collect/%@", id]
+    //取消收藏功能 DELETE Header:Qbtoken
+    #define api_qiushi_delete(id)                    [NSString stringWithFormat:@"http://m2.qiushibaike.com/collect/%@", id]
+    //顶、踩糗事:POST
+    #define api_qiushi_vote                          @"http://vote.qiushibaike.com/vote_queue"
+    //发布糗事:POST Header:Qbtoken:94b0843c2b1b940a5b50594e5422ef6d976dedcb Content-Type:multipart/form-data; boundary=ixhan-dot-com
+    #define api_qiushi_create                        @"http://m2.qiushibaike.com/article/create"
+#endif
+
+#endif

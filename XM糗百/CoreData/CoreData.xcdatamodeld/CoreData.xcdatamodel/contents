@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="858" systemVersion="10K549" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="UserInfomation" representedClassName="UserInfomation">
+        <attribute name="age" optional="YES" attributeType="String"/>
+        <attribute name="hobby" optional="YES" attributeType="String"/>
+        <attribute name="introduce" optional="YES" attributeType="String"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="sexy" optional="YES" attributeType="String"/>
+        <attribute name="signature" optional="YES" attributeType="String"/>
+        <attribute name="userIcon" optional="YES" attributeType="Binary"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="UserInfomation" positionX="90" positionY="-621" width="128" height="180"/>
+    </elements>
+</model>
