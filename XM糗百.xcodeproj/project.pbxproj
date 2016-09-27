@@ -14,7 +14,6 @@
 		1921BE201A381E2A00DBE020 /* UserDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1921BE181A381E2A00DBE020 /* UserDataManager.m */; };
 		1921BE211A381E2A00DBE020 /* UserInfomation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1921BE1A1A381E2A00DBE020 /* UserInfomation.m */; };
 		1921BE221A381E2A00DBE020 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1921BE1C1A381E2A00DBE020 /* UserInfoModel.m */; };
-		1921BE231A381E2A00DBE020 /* UserInfoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1921BE1D1A381E2A00DBE020 /* UserInfoModel.xcdatamodeld */; };
 		1921BE4D1A381E2F00DBE020 /* RequestComents.m in Sources */ = {isa = PBXBuildFile; fileRef = 1921BE3D1A381E2F00DBE020 /* RequestComents.m */; };
 		1921BE4E1A381E2F00DBE020 /* RequestData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1921BE3F1A381E2F00DBE020 /* RequestData.m */; };
 		1921BE4F1A381E2F00DBE020 /* RequestUserQiushi.m in Sources */ = {isa = PBXBuildFile; fileRef = 1921BE411A381E2F00DBE020 /* RequestUserQiushi.m */; };
@@ -674,7 +673,6 @@
 				1921BE1A1A381E2A00DBE020 /* UserInfomation.m */,
 				1921BE1B1A381E2A00DBE020 /* UserInfoModel.h */,
 				1921BE1C1A381E2A00DBE020 /* UserInfoModel.m */,
-				1921BE1D1A381E2A00DBE020 /* UserInfoModel.xcdatamodeld */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -1491,7 +1489,6 @@
 				19819FAB1AE633B8009AEAB6 /* ShareKitView.m in Sources */,
 				19819F6C1AE633B8009AEAB6 /* ASIHTTPRequest.m in Sources */,
 				19ADC6131A4D393C0008FD4E /* PhotoViewController.m in Sources */,
-				1921BE231A381E2A00DBE020 /* UserInfoModel.xcdatamodeld in Sources */,
 				19819F841AE633B8009AEAB6 /* SHSRedirectSharer.m in Sources */,
 				19819F741AE633B8009AEAB6 /* HMGLTransitionManager.m in Sources */,
 				19819F7F1AE633B8009AEAB6 /* RenRenSharer.m in Sources */,
@@ -1678,14 +1675,6 @@
 			);
 			currentVersion = 1921BE141A381E2A00DBE020 /* CoreData.xcdatamodel */;
 			path = CoreData.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		1921BE1D1A381E2A00DBE020 /* UserInfoModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-			);
-			path = UserInfoModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
